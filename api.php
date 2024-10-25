@@ -2,7 +2,7 @@
 $host = 'db5016547740.hosting-data.io';
 $db = 'dbs13427913';
 $user = 'dbu567193';
-$pass = 'ArielyMia20122014'; // Cambia a tu contraseña
+$pass = '${{secrets.pwd}}'; // Cambia a tu contraseña
 
 $conn = new mysqli($host, $user, $pass, $db);
 
